@@ -4,7 +4,7 @@ namePrefix: dev-
 images:
 - name: nanajanashia-argocd-app
   newName: nanajanashia/argocd-app
-  newTag: 1.2
+  newTag: '1.2'
 commonLabels:
   app: myapp.dev
   env: dev
