@@ -8,3 +8,4 @@ images:
 commonLabels:
   app: myapp.dev
   env: dev
+namespace: dev
