@@ -1,0 +1,10 @@
+bases:
+- ../base
+namePrefix: dev-
+images:
+- name: nanajanashia-argocd-app
+  newName: nanajanashia/argocd-app
+  newTag: latest
+commonLabels:
+  app: myapp.dev
+  env: dev

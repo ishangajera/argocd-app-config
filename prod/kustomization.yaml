@@ -1,0 +1,12 @@
+bases:
+- ../base
+namePrefix: prod-
+images:
+- name: nanajanashia-argocd-app
+  newName: nanajanashia/argocd-app
+  newTag: '1.0'
+commonLabels:
+  env: prod
+patchesStrategicMerge:
+- increase_replicas.yaml
+- set_memory.yaml
