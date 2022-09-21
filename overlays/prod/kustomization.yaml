@@ -1,5 +1,5 @@
 bases:
-- ../base
+- ../../base
 namePrefix: prod-
 images:
 - name: nanajanashia-argocd-app
